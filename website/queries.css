@@ -115,6 +115,20 @@
 @media only screen and (max-width: 480px) {
     section { padding: 25px 0; }
     .contact-form {width: 100%; }
+
+    h1{
+        font-size: 7vh;
+    }
+
+    h2{
+        font-size: 2vh;
+        float: right;
+        padding-right: 10vh;
+    }
+    .article-box{
+        height: 100vh;
+        display:block;
+    }
 }
 
 

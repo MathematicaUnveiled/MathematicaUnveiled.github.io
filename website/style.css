@@ -22,6 +22,22 @@ html,
 h1{
     padding: 4vh;
     margin-left: 2vh;
+    font-size: 12vh;
+}
+
+h2{
+    font-size: 3vh;
+    padding-right: 4vh;
+    float: right;
+}
+
+h3{
+    font-size: 3vh;
+    padding-right: 4vh;
+}
+
+p {
+    font-size: 3vh;
 }
 
 a:hover {
