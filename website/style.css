@@ -1,7 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family: "Inter", sans-serif;
+    font-family: "EB Garamond", serif;
+    font-style: normal;
+    background-color: #f8edeb;
+    color: #472d30;
 }
 
 .homemade-apple-regular {
@@ -9,13 +12,81 @@
     font-weight: 400;
     font-style: normal;
 }
+.eb-garamond{
+    font-family: "EB Garamond", serif;
+    font-style: normal;
+  }
 
-/* <uniquifier>: Use a unique and descriptive class name
-<weight>: Use a value from 100 to 900 */
+html,
 
-.inter {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings: "slnt" 0;
+h1{
+    padding: 4vh;
+    margin-left: 2vh;
+}
+
+a:hover {
+    .article-box {
+        background-color: #b08968;
+    }
+    .article-text {
+        background-color: #b08968;
+    }
+    .article-title {
+        background-color: #b08968;
+    }
+    .article-description {
+        background-color: #b08968;
+    }
+    .article-date {
+        background-color: #b08968;
+    }
+
+}
+
+.article-box{
+    margin: 3vh;
+    padding: 1vh;
+    border-radius: 20px;
+    background-color: #472d30;
+    height: 40vh;
+    width: 90vw;
+    display: inline-flex;
+}
+
+.article-img{
+    margin: 3vh;
+    border-radius: 20px;
+    height: 34vh;
+    width: 40vh;
+}
+
+.article-text {
+    margin: 3vh;
+    height: 34vh;
+    background-color: #472d30;
+    color: #f8edeb;
+}
+
+.article-title{
+    margin: 1vh;
+    background-color: #472d30;
+    color: #f8edeb;
+}
+
+.article-description{
+    margin: 1vh;
+    padding-top: 3vh;
+    background-color: #472d30;
+    padding-right: 2vh;
+    color: #f8edeb;
+}
+
+.article-date{
+    font-style: italic;
+    margin: 1vh;
+    padding-top: 3vh;
+    background-color: #472d30;
+    color: #f8edeb;
+    padding-right: 2vh;
+    float: right;
 }
